@@ -25,4 +25,4 @@ jobs:
       uses: docker/build-push-action@v2.9.0
       with:
         push: true
-        tags: sumos77/movie_dictionary:$(date +%s)
+        tags: sumos77/movie_dictionary
